@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaCare Medical Center | Compassionate & Advanced Healthcare</title>
+  <meta name="description" content="NovaCare Hospital & Medical Center provides multispecialty medical care, 24/7 trauma & emergency services, board-certified doctors, and online appointment booking.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cabinet+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Emergency & Info Bar -->
+  <div class="top-info-bar">
+    <div class="container info-inner">
+      <div class="info-left">
+        <span><i class="fa-solid fa-truck-medical text-red"></i> 24/7 Emergency Helpline: <strong>+1 (800) 555-CARE</strong></span>
+        <span><i class="fa-solid fa-location-dot"></i> 742 Evergreen Healthcare Blvd, San Francisco, CA</span>
+      </div>
+      <div class="info-right">
+        <span><i class="fa-solid fa-clock"></i> Visiting Hours: 9:00 AM – 8:00 PM</span>
+        <a href="#appointment" class="top-book-btn">Book Appointment</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="hospital-brand">
+        <div class="brand-cross"><i class="fa-solid fa-house-medical"></i></div>
+        <div>
+          <span class="brand-title">Nova<strong>Care</strong></span>
+          <span class="brand-tagline">Medical Center & Research</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#departments" class="nav-link">Departments</a></li>
+          <li><a href="#doctors" class="nav-link">Specialists</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#health-tips" class="nav-link">Health Info</a></li>
+          <li><a href="#emergency" class="nav-link">Emergency</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#appointment" class="btn btn-primary nav-cta"><i class="fa-regular fa-calendar-check"></i> Book Doctor</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="badge-accredited">
+            <i class="fa-solid fa-shield-halved"></i> JCI & NABH Accredited Healthcare Center
+          </div>
+          <h1 class="hero-title">
+            Exceptional Medical Care, <span class="text-teal">Compassionate Hearts</span>.
+          </h1>
+          <p class="hero-subtext">
+            Combining state-of-the-art diagnostic technology, world-renowned clinical specialists, and round-the-clock emergency care to protect what matters most—your health.
+          </p>
+
+          <div class="hero-cta-buttons">
+            <a href="#appointment" class="btn btn-primary btn-lg"><i class="fa-solid fa-calendar-plus"></i> Schedule Consultation</a>
+            <a href="#departments" class="btn btn-outline btn-lg"><i class="fa-solid fa-stethoscope"></i> Our Specialties</a>
+          </div>
+
+          <div class="hero-emergency-callout">
+            <div class="callout-icon"><i class="fa-solid fa-phone-volume"></i></div>
+            <div>
+              <span class="callout-label">Immediate Ambulance & Trauma Dispatch</span>
+              <a href="tel:+18005552273" class="callout-number">+1 (800) 555-CARE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80" alt="Doctor consulting patient" class="main-hero-img">
+            
+            <div class="floating-badge badge-satisfied">
+              <div class="badge-icon green"><i class="fa-solid fa-heart-pulse"></i></div>
+              <div>
+                <strong>99.4%</strong>
+                <span>Patient Satisfaction</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-doctors">
+              <div class="badge-icon blue"><i class="fa-solid fa-user-doctor"></i></div>
+              <div>
+                <strong>180+</strong>
+                <span>Specialist Doctors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Features Strip -->
+    <section class="quick-features-strip">
+      <div class="container strip-grid">
+        <div class="strip-item">
+          <div class="strip-icon"><i class="fa-solid fa-clock"></i></div>
+          <div>
+            <h4>24/7 Emergency Care</h4>
+            <p>Immediate trauma triage & critical care units.</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <div class="strip-icon"><i class="fa-solid fa-dna"></i></div>
+          <div>
+            <h4>Advanced Diagnostics</h4>
+            <p>3 Tesla MRI, Ultra CT, Robotic surgical suites.</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <div class="strip-icon"><i class="fa-solid fa-microscope"></i></div>
+          <div>
+            <h4>Dedicated Clinical Labs</h4>
+            <p>Rapid automated pathology & genetic screening.</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <div class="strip-icon"><i class="fa-solid fa-pills"></i></div>
+          <div>
+            <h4>In-House Pharmacy</h4>
+            <p>Certified prescription fulfillment & doorstep delivery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hospital Overview / About -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-side">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=700&q=80" alt="NovaCare Hospital Facility" class="about-main-img">
+          <div class="experience-card">
+            <strong>28+</strong>
+            <span>Years of Clinical Excellence</span>
+          </div>
+        </div>
+
+        <div class="about-text-side">
+          <span class="section-tag">About NovaCare</span>
+          <h2 class="section-title">Leading the Future of Modern Medicine</h2>
+          <p class="lead-para">
+            Founded with a commitment to human-centric medical innovation, NovaCare Medical Center has grown into a globally benchmarked multispecialty tertiary hospital.
+          </p>
+          <p class="secondary-para">
+            Our multidisciplinary teams of clinicians, nurses, and medical researchers collaborate seamlessly to deliver individualized treatment plans. We prioritize patient dignity, safety, and rapid recovery at every stage of care.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-point">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Zero-Wait-Time Pediatric & Cardiac Triage Protocol</span>
+            </div>
+            <div class="highlight-point">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Smart Hospital Inpatient Rooms with Digital Monitoring</span>
+            </div>
+            <div class="highlight-point">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Full Insurance & Cashless Treatment Support</span>
+            </div>
+          </div>
+
+          <a href="#appointment" class="btn btn-primary"><i class="fa-solid fa-user-plus"></i> Register as a Patient</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="section departments-section" id="departments">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Medical Disciplines</span>
+          <h2 class="section-title">Specialized Clinical Departments</h2>
+          <p class="section-subtitle">Comprehensive medical disciplines staffed by board-certified department heads and specialized surgical teams.</p>
+        </div>
+
+        <div class="departments-grid">
+          <div class="dept-card">
+            <div class="dept-icon-box red"><i class="fa-solid fa-heart-pulse"></i></div>
+            <h3>Cardiology & Heart Care</h3>
+            <p>Comprehensive coronary angiographies, bypass surgeries, pacemaker implantations, and pediatric cardiac diagnostics.</p>
+            <ul class="dept-services-list">
+              <li>• ECG & 2D Echo</li>
+              <li>• Interventional Cath Lab</li>
+              <li>• Preventive Heart Checks</li>
+            </ul>
+          </div>
+
+          <div class="dept-card">
+            <div class="dept-icon-box blue"><i class="fa-solid fa-brain"></i></div>
+            <h3>Neurology & Neurosurgery</h3>
+            <p>Expert stroke recovery management, brain tumor excisions, epilepsy therapy, and complex spine reconstruction.</p>
+            <ul class="dept-services-list">
+              <li>• Comprehensive Stroke Unit</li>
+              <li>• Neuro-Rehabilitation</li>
+              <li>• EEG & Nerve Conduction</li>
+            </ul>
+          </div>
+
+          <div class="dept-card">
+            <div class="dept-icon-box green"><i class="fa-solid fa-baby"></i></div>
+            <h3>Pediatrics & Neonatal Care</h3>
+            <p>Level III NICU, developmental pediatric therapy, immunization programs, and child wellness evaluations.</p>
+            <ul class="dept-services-list">
+              <li>• 24/7 Pediatric Emergency</li>
+              <li>• Neonatal Intensive Care</li>
+              <li>• Growth & Nutrition Clinic</li>
+            </ul>
+          </div>
+
+          <div class="dept-card">
+            <div class="dept-icon-box orange"><i class="fa-solid fa-bone"></i></div>
+            <h3>Orthopedics & Joint Center</h3>
+            <p>Minimally invasive knee and hip replacements, arthroscopic sports medicine, and spinal deformity treatment.</p>
+            <ul class="dept-services-list">
+              <li>• Robotic Joint Replacement</li>
+              <li>• Sports Injury Rehabilitation</li>
+              <li>• Bone Density Scans (DEXA)</li>
+            </ul>
+          </div>
+
+          <div class="dept-card">
+            <div class="dept-icon-box purple"><i class="fa-solid fa-ribbon"></i></div>
+            <h3>Medical & Surgical Oncology</h3>
+            <p>Integrative cancer care, precision targeted immunotherapy, surgical tumor resection, and compassionate palliative support.</p>
+            <ul class="dept-services-list">
+              <li>• Daycare Chemotherapy</li>
+              <li>• Tumor Board Consultations</li>
+              <li>• Genetic Risk Profiling</li>
+            </ul>
+          </div>
+
+          <div class="dept-card">
+            <div class="dept-icon-box teal"><i class="fa-solid fa-eye"></i></div>
+            <h3>Ophthalmology & Eye Care</h3>
+            <p>Laser vision correction, sutureless cataract surgery, glaucoma management, and pediatric retina evaluations.</p>
+            <ul class="dept-services-list">
+              <li>• Blade-Free LASIK</li>
+              <li>• Diabetic Retinopathy Care</li>
+              <li>• Advanced Corneal Clinic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doctor Specialists Section -->
+    <section class="section doctors-section" id="doctors">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Specialists</span>
+          <h2 class="section-title">Meet Our Leading Physicians</h2>
+          <p class="section-subtitle">Distinguished specialists bringing decades of clinical acumen and medical empathy.</p>
+        </div>
+
+        <div class="doctors-grid">
+          <!-- Doctor 1 -->
+          <div class="doctor-card">
+            <div class="doctor-photo-wrap">
+              <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80" alt="Dr. Raymond Hayes">
+              <span class="doctor-dept-badge">Cardiology</span>
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Raymond Hayes, MD, FACC</h3>
+              <p class="doctor-title">Director of Interventional Cardiology</p>
+              <div class="doctor-meta">
+                <span><i class="fa-solid fa-graduation-cap"></i> Harvard Medical School</span>
+                <span><i class="fa-solid fa-clock-rotate-left"></i> 22+ Years Experience</span>
+              </div>
+              <p class="doctor-desc">Specializes in transcatheter aortic valve replacements and coronary stent interventions with over 5,000 procedures.</p>
+              <a href="#appointment" class="btn btn-outline btn-sm book-doc-btn" data-doc="Dr. Raymond Hayes" data-dept="Cardiology">Book Appointment</a>
+            </div>
+          </div>
+
+          <!-- Doctor 2 -->
+          <div class="doctor-card">
+            <div class="doctor-photo-wrap">
+              <img src="https://images.unsplash.com/photo-1594824813576-23961445bf7a?auto=format&fit=crop&w=600&q=80" alt="Dr. Aris Thorne">
+              <span class="doctor-dept-badge">Neurology</span>
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Evelyn Reed, MD, PhD</h3>
+              <p class="doctor-title">Chief of Neurology & Stroke Care</p>
+              <div class="doctor-meta">
+                <span><i class="fa-solid fa-graduation-cap"></i> Johns Hopkins University</span>
+                <span><i class="fa-solid fa-clock-rotate-left"></i> 18+ Years Experience</span>
+              </div>
+              <p class="doctor-desc">Pioneering stroke thrombolysis protocols and complex neuromuscular disease interventions.</p>
+              <a href="#appointment" class="btn btn-outline btn-sm book-doc-btn" data-doc="Dr. Evelyn Reed" data-dept="Neurology">Book Appointment</a>
+            </div>
+          </div>
+
+          <!-- Doctor 3 -->
+          <div class="doctor-card">
+            <div class="doctor-photo-wrap">
+              <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80" alt="Dr. Samantha Patel">
+              <span class="doctor-dept-badge">Pediatrics</span>
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Samantha Patel, MD, FAAP</h3>
+              <p class="doctor-title">Head of Pediatrics & Child Health</p>
+              <div class="doctor-meta">
+                <span><i class="fa-solid fa-graduation-cap"></i> Stanford School of Medicine</span>
+                <span><i class="fa-solid fa-clock-rotate-left"></i> 15+ Years Experience</span>
+              </div>
+              <p class="doctor-desc">Dedicated to preventive pediatric medicine, developmental screening, and neonatal intensive therapy.</p>
+              <a href="#appointment" class="btn btn-outline btn-sm book-doc-btn" data-doc="Dr. Samantha Patel" data-dept="Pediatrics">Book Appointment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Medical Services Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Facilities & Care</span>
+          <h2 class="section-title">Comprehensive Healthcare Services</h2>
+          <p class="section-subtitle">Holistic healthcare infrastructure designed to support patient well-being from diagnosis to recovery.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-bed-pulse"></i></div>
+            <h4>Intensive Care Units (ICU/CCU)</h4>
+            <p>24/7 dedicated critical care suites with continuous physiological hemodynamic monitoring and 1:1 nurse-to-patient staffing.</p>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+            <h4>Robotic & Laparoscopic Surgery</h4>
+            <p>Ultra-precise surgical suites minimizing surgical trauma, shortening hospitalization days, and reducing post-op recovery periods.</p>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-video"></i></div>
+            <h4>Telehealth & Virtual Consultations</h4>
+            <p>Secure, encrypted video appointments for follow-ups, second opinions, and lab report consultations from the comfort of home.</p>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-hand-holding-droplet"></i></div>
+            <h4>Blood Bank & Transfusion Medicine</h4>
+            <p>Licensed component separation bank offering 100% voluntary blood products, platelets, and plasma testing for emergency needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment Booking Section -->
+    <section class="section appointment-section" id="appointment">
+      <div class="container">
+        <div class="appointment-card-wrapper">
+          <div class="appointment-info-col">
+            <span class="tag-light">Quick Registration</span>
+            <h2>Book an In-Person or Telehealth Consultation</h2>
+            <p>Choose your department, select your preferred specialist, and secure your OPD time slot in seconds.</p>
+
+            <div class="appointment-perks">
+              <div class="perk-item">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Instant SMS & Email appointment confirmation</span>
+              </div>
+              <div class="perk-item">
+                <i class="fa-solid fa-shield-virus"></i>
+                <span>Hygienic, zero-waiting check-in kiosk access</span>
+              </div>
+              <div class="perk-item">
+                <i class="fa-solid fa-circle-question"></i>
+                <span>Assistance available via live helpline 24/7</span>
+              </div>
+            </div>
+
+            <div class="help-card">
+              <i class="fa-solid fa-headset"></i>
+              <div>
+                <strong>Need Immediate Assistance?</strong>
+                <p>Call our OPD Desk: +1 (800) 555-2273</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="appointment-form-col">
+            <form id="appointment-form" class="appt-form">
+              <h3>Patient Appointment Form</h3>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="patient-name">Patient Full Name *</label>
+                  <input type="text" id="patient-name" required placeholder="Johnathan Smith">
+                </div>
+                <div class="form-group">
+                  <label for="patient-phone">Phone Number *</label>
+                  <input type="tel" id="patient-phone" required placeholder="+1 (555) 012-3456">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="patient-email">Email Address</label>
+                  <input type="email" id="patient-email" placeholder="johnathan@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="appointment-date">Preferred Date *</label>
+                  <input type="date" id="appointment-date" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="dept-select">Department *</label>
+                  <select id="dept-select" required>
+                    <option value="">Select Department</option>
+                    <option value="Cardiology">Cardiology & Heart Care</option>
+                    <option value="Neurology">Neurology & Stroke Care</option>
+                    <option value="Pediatrics">Pediatrics & Child Health</option>
+                    <option value="Orthopedics">Orthopedics & Joint Replacement</option>
+                    <option value="Oncology">Medical Oncology</option>
+                    <option value="General Medicine">General Internal Medicine</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="doctor-select">Specialist Doctor *</label>
+                  <select id="doctor-select" required>
+                    <option value="">Select Doctor</option>
+                    <option value="Dr. Raymond Hayes">Dr. Raymond Hayes (Cardiologist)</option>
+                    <option value="Dr. Evelyn Reed">Dr. Evelyn Reed (Neurologist)</option>
+                    <option value="Dr. Samantha Patel">Dr. Samantha Patel (Pediatrician)</option>
+                    <option value="Available Duty Doctor">Any Available Consultant</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="symptoms">Symptoms or Reason for Visit</label>
+                <textarea id="symptoms" rows="3" placeholder="Briefly describe symptoms, previous medical history, or check-up request..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-appt-btn">
+                <i class="fa-solid fa-check-circle"></i> Confirm Appointment Booking
+              </button>
+              <div id="booking-feedback" class="booking-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Health Information & Wellness Tips -->
+    <section class="section health-tips-section" id="health-tips">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Health Knowledgebase</span>
+          <h2 class="section-title">Health Information & Wellness Insights</h2>
+          <p class="section-subtitle">Verified medical guides authored by NovaCare clinical consultants to support proactive healthy living.</p>
+        </div>
+
+        <div class="tips-grid">
+          <article class="tip-card">
+            <div class="tip-image">
+              <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=600&q=80" alt="Preventive Heart Health">
+              <span class="tip-category">Cardiovascular</span>
+            </div>
+            <div class="tip-content">
+              <span class="tip-date"><i class="fa-regular fa-calendar"></i> October 14, 2026</span>
+              <h3>5 Daily Habits to Protect Your Heart and Prevent Hypertension</h3>
+              <p>Clinical evidence on blood pressure monitoring, dietary sodium reduction, and the vital role of 30 minutes of aerobic movement.</p>
+              <a href="#health-tips" class="read-more-link">Read Clinical Guide &rarr;</a>
+            </div>
+          </article>
+
+          <article class="tip-card">
+            <div class="tip-image">
+              <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80" alt="Nutritional Wellness">
+              <span class="tip-category">Nutrition</span>
+            </div>
+            <div class="tip-content">
+              <span class="tip-date"><i class="fa-regular fa-calendar"></i> September 28, 2026</span>
+              <h3>Boosting Immune Resilience: Superfoods and Gut Microbiome</h3>
+              <p>Understanding the connection between dietary fiber, fermented foods, gut diversity, and immune defense against seasonal viruses.</p>
+              <a href="#health-tips" class="read-more-link">Read Clinical Guide &rarr;</a>
+            </div>
+          </article>
+
+          <article class="tip-card">
+            <div class="tip-image">
+              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Mental Wellness">
+              <span class="tip-category">Mental Health</span>
+            </div>
+            <div class="tip-content">
+              <span class="tip-date"><i class="fa-regular fa-calendar"></i> August 19, 2026</span>
+              <h3>Managing Workplace Burnout: Cognitive Rest and Sleep Hygiene</h3>
+              <p>Practical neuroscience tips for establishing restorative sleep cycles and mitigating chronic cognitive fatigue.</p>
+              <a href="#health-tips" class="read-more-link">Read Clinical Guide &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emergency Contacts & Location Section -->
+    <section class="section emergency-section" id="emergency">
+      <div class="container">
+        <div class="emergency-banner-box">
+          <div class="emergency-banner-content">
+            <div class="emergency-icon-lg"><i class="fa-solid fa-ambulance"></i></div>
+            <div>
+              <span class="emergency-tag">24/7 Rapid Emergency Response</span>
+              <h2>In a Life-Threatening Medical Crisis?</h2>
+              <p>Our trauma bays and cardiac catheterization teams are on standby 24 hours a day, 365 days a year.</p>
+            </div>
+          </div>
+          <div class="emergency-numbers-group">
+            <a href="tel:+18005552273" class="btn btn-emergency"><i class="fa-solid fa-phone"></i> Emergency: +1 (800) 555-CARE</a>
+            <a href="tel:+18005550911" class="btn btn-outline-white"><i class="fa-solid fa-truck-medical"></i> Ambulance: +1 (800) 555-0911</a>
+          </div>
+        </div>
+
+        <div class="location-details-grid">
+          <div class="location-card">
+            <div class="loc-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+            <h4>Hospital Main Campus</h4>
+            <p>742 Evergreen Healthcare Blvd, Suite 100<br>San Francisco, CA 94107</p>
+            <span class="sub-text"><i class="fa-solid fa-square-parking"></i> 24-Hour Valet & Patient Parking Available</span>
+          </div>
+
+          <div class="location-card">
+            <div class="loc-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+            <h4>Administrative Contact</h4>
+            <p>General Inquiries: info@novacarehealth.org<br>Patient Billing: billing@novacarehealth.org</p>
+            <span class="sub-text"><i class="fa-solid fa-phone"></i> Main Switchboard: +1 (555) 019-4800</span>
+          </div>
+
+          <div class="location-card">
+            <div class="loc-icon"><i class="fa-solid fa-hospital-user"></i></div>
+            <h4>Patient Assistance & Ombudsman</h4>
+            <p>Patient Relations Desk: Room 104, Ground Floor<br>Available Mon–Sat: 8:00 AM – 6:00 PM</p>
+            <span class="sub-text"><i class="fa-solid fa-comments"></i> In-Person Patient Advocacy Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand-info">
+        <div class="hospital-brand footer-logo">
+          <div class="brand-cross"><i class="fa-solid fa-house-medical"></i></div>
+          <div>
+            <span class="brand-title">Nova<strong>Care</strong></span>
+            <span class="brand-tagline">Medical Center & Research</span>
+          </div>
+        </div>
+        <p>Providing cutting-edge, patient-centered medical treatment across 45+ clinical specialties with compassionate care since 1998.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Key Departments</h4>
+        <ul>
+          <li><a href="#departments">Cardiology & Heart Care</a></li>
+          <li><a href="#departments">Neurology & Stroke</a></li>
+          <li><a href="#departments">Pediatrics & Neonatology</a></li>
+          <li><a href="#departments">Orthopedic Surgery</a></li>
+          <li><a href="#departments">Oncology Center</a></li>
+          <li><a href="#departments">Emergency Medicine</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Patient Resources</h4>
+        <ul>
+          <li><a href="#appointment">Schedule Appointment</a></li>
+          <li><a href="#services">Diagnostics & Pathology</a></li>
+          <li><a href="#health-tips">Health Blog & Articles</a></li>
+          <li><a href="#">Insurance & Billing</a></li>
+          <li><a href="#">Patient Rights Charter</a></li>
+          <li><a href="#emergency">Emergency Protocols</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Accreditations</h4>
+        <div class="accreditations-box">
+          <div class="badge-item"><i class="fa-solid fa-certificate"></i> JCI Gold Seal Certified</div>
+          <div class="badge-item"><i class="fa-solid fa-award"></i> NABH Accredited Hospital</div>
+          <div class="badge-item"><i class="fa-solid fa-shield-halved"></i> CAP Certified Laboratory</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 NovaCare Hospital & Medical Center. All healthcare rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">HIPAA Compliance</a>
+        <a href="#">Terms of Care</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
